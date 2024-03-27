@@ -1,8 +1,8 @@
-package phase;
+package day3;
 
 import java.util.Scanner;
 
-public class reverserecursion {
+public class rev {
 	void reverseString(String string)   
 	{   
 	if ((string==null)||(string.length() <= 1))   
@@ -17,7 +17,7 @@ public class reverserecursion {
 	{   
 	Scanner myObj = new Scanner(System.in);
 	String str = myObj.next();
-	reverserecursion rs = new reverserecursion ();  
+	rev rs = new rev();  
 	rs.reverseString(str);   
 	}        
 }
